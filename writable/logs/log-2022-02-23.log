@@ -1,0 +1,72 @@
+ERROR - 2022-02-23 18:43:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-23 18:43:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Pages.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Pages->data()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-23 19:09:44 --> Undefined variable: kaos
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\data.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/data', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Pages.php(23): view('pages/data')
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Pages->data()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-23 19:14:38 --> Undefined variable: kaos
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\data.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/data', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Pages.php(23): view('pages/data')
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Pages->data()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-23 19:15:04 --> Undefined variable: KaosModel
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\data.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/data', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Pages.php(23): view('pages/data')
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Pages->data()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-23 19:19:00 --> Undefined variable: komik
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Pages.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Pages->data()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 19:19:30 --> Undefined variable: KaosModel
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\data.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/data', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Pages.php(27): view('pages/data', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Pages->data()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

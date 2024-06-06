@@ -1,0 +1,348 @@
+CRITICAL - 2022-03-05 09:23:30 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:30 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:31 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:32 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:32 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:33 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:33 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:34 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:35 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:35 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:36 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:36 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 09:23:37 --> Undefined property: App\Controllers\Bayardw::$input
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:40:39 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:40:57 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:46:57 --> Undefined property: App\Controllers\Bayardw::$load
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:49:45 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:52:34 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:52:37 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:52:38 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:52:41 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:52:44 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:52:44 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:53:51 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:54:54 --> Undefined property: App\Controllers\Bayardw::$getBayardw
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:55:39 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:59:24 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 10:59:46 --> Undefined property: App\Controllers\Bayardw::$Bayardwmodel
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->getBayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 11:08:53 --> Call to undefined method App\Models\BayardwModel::getBayard
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(15): CodeIgniter\Model->__call('getBayard', Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 11:10:36 --> Call to undefined method App\Models\BayardwModel::getBayard
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(15): CodeIgniter\Model->__call('getBayard', Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 11:13:44 --> Undefined property: App\Controllers\Bayardw::$title
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 11:50:24 --> Undefined property: App\Controllers\Bayardw::$title
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 11:50:45 --> Undefined property: App\Controllers\Bayardw::$title
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-05 13:09:47 --> Undefined variable: anak
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\bayardw.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/bayardw', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(20): view('pages/bayardw', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-05 13:11:03 --> Undefined variable: dewasa
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\bayardw.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/bayardw', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(20): view('pages/bayardw', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-05 13:12:50 --> Undefined property: stdClass::$id_dewasa
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\bayardw.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/bayardw', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(21): view('pages/bayardw', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-05 13:15:32 --> Trying to get property 'id_dewasa' of non-object
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\bayardw.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/bayardw', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(21): view('pages/bayardw', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-05 13:17:35 --> Trying to get property 'id_dewasa' of non-object
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\bayardw.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/bayardw', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(21): view('pages/bayardw', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-05 13:19:23 --> Undefined variable: bayardw
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\bayardw.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/bayardw', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(21): view('pages/bayardw', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-05 13:26:18 --> Undefined variable: bayardw
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\bayardw.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/bayardw', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Bayardw.php(20): view('pages/bayardw', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Bayardw->bayardw()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bayardw))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

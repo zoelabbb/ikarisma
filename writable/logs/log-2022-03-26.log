@@ -1,0 +1,203 @@
+CRITICAL - 2022-03-26 10:22:51 --> Too few arguments to function App\Models\DewasaModel::getCari(), 2 passed in C:\xampp\htdocs\ikarisma\app\Controllers\Kaos.php on line 23 and exactly 3 expected
+#0 C:\xampp\htdocs\ikarisma\app\Controllers\Kaos.php(23): App\Models\DewasaModel->getCari(10, NULL)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos->kaos()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos))
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-26 10:27:19 --> Too few arguments to function App\Controllers\Kaos::kaos(), 0 passed in C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos->kaos()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos))
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-03-26 13:05:15 --> Invalid use of group function
+CRITICAL - 2022-03-26 13:05:15 --> Invalid use of group function
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Bayar.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Bayar->billing_d()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bayar))
+#11 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-26 13:06:32 --> Invalid use of group function
+CRITICAL - 2022-03-26 13:06:32 --> Invalid use of group function
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Bayar.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Bayar->billing_d()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bayar))
+#11 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-26 13:07:45 --> Invalid use of group function
+CRITICAL - 2022-03-26 13:07:45 --> Invalid use of group function
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Bayar.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Bayar->billing_d()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bayar))
+#11 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-03-26 13:25:50 --> Undefined index: bayar
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\kaos.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/kaos', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Kaos.php(27): view('pages/kaos', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos->kaos()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-26 13:54:55 --> Undefined index: jumlah
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\kaos.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/kaos', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Kaos.php(27): view('pages/kaos', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos->kaos()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-26 13:55:28 --> Undefined index: jumlah
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\kaos.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/kaos', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Kaos.php(27): view('pages/kaos', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos->kaos()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-26 14:00:00 --> Undefined index: id_dewasa
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\kaos.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/kaos', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Kaos.php(27): view('pages/kaos', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos->kaos()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-26 14:01:51 --> Unknown column 'bayar_dewasa.bayar' in 'field list'
+CRITICAL - 2022-03-26 14:01:51 --> Unknown column 'bayar_dewasa.bayar' in 'field list'
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `dewasa`...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dewasa`...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dewasa`...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `dewasa`...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\ikarisma\app\Models\DewasaModel.php(33): CodeIgniter\BaseModel->paginate(10, 'dewasa')
+#8 C:\xampp\htdocs\ikarisma\app\Controllers\Kaos.php(23): App\Models\DewasaModel->getCari(10, NULL)
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos->kaos()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos))
+#11 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-26 14:05:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=id_dewasa
+FROM `dewasa`
+LEFT JOIN `kaos` ON `kaos`.`id_kaos`=`dewasa`.`id_ka...' at line 1
+CRITICAL - 2022-03-26 14:05:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=id_dewasa
+FROM `dewasa`
+LEFT JOIN `kaos` ON `kaos`.`id_kaos`=`dewasa`.`id_ka...' at line 1
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `dewasa`...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `dewasa`...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `dewasa`...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `dewasa`...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\ikarisma\app\Models\DewasaModel.php(34): CodeIgniter\BaseModel->paginate(10, 'dewasa')
+#8 C:\xampp\htdocs\ikarisma\app\Controllers\Kaos.php(23): App\Models\DewasaModel->getCari(10, NULL)
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos->kaos()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos))
+#11 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-26 14:15:09 --> Unknown column 'bayar_dewasa.id_dewasa' in 'where clause'
+CRITICAL - 2022-03-26 14:15:09 --> Unknown column 'bayar_dewasa.id_dewasa' in 'where clause'
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `bayar_d...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `bayar_d...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `bayar_d...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `bayar_d...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('85', Array)
+#8 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Koreksi.php(47): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Koreksi->koreksi_d('85')
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Koreksi))
+#11 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-26 14:35:34 --> Unknown column 'ROW.bayar' in 'field list'
+CRITICAL - 2022-03-26 14:35:34 --> Unknown column 'ROW.bayar' in 'field list'
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Bayar.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Bayar->billing_d()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bayar))
+#11 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-03-26 14:39:42 --> Unknown column 'bayar' in 'field list'
+CRITICAL - 2022-03-26 14:39:42 --> Unknown column 'bayar' in 'field list'
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Bayar.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Bayar->billing_d()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bayar))
+#11 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

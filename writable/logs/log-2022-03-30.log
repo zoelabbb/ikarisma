@@ -1,0 +1,437 @@
+CRITICAL - 2022-03-30 01:47:01 --> Undefined index: jml_pengeluaran
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 01:55:02 --> Undefined index: jml_pengeluaran
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 02:19:25 --> Too few arguments to function App\Controllers\Admin\Pengeluaran::pengeluaran(), 0 passed in C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-30 02:19:55 --> Too few arguments to function App\Controllers\Admin\Pengeluaran::pengeluaran(), 0 passed in C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-30 02:22:45 --> Too few arguments to function App\Controllers\Admin\Pengeluaran::pengeluaran(), 0 passed in C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-30 02:29:03 --> Too few arguments to function App\Controllers\Admin\Pengeluaran::pengeluaran(), 0 passed in C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-30 02:30:05 --> Too few arguments to function App\Controllers\Admin\Pengeluaran::pengeluaran(), 0 passed in C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-30 02:32:20 --> Undefined variable: trans
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 02:32:52 --> Undefined index: tgl_pengeluaran
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 02:53:11 --> Operand should contain 1 column(s)
+CRITICAL - 2022-03-30 02:53:11 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(28): App\Models\TransaksiModel->Getlaporan()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#8 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-30 02:54:08 --> Operand should contain 1 column(s)
+CRITICAL - 2022-03-30 02:54:08 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(28): App\Models\TransaksiModel->Getlaporan()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#8 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-30 02:54:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT IFNULL(SUM(jml_transaksi), 0) AS bayar, (IFNULL(SUM(jml_transaksi), 0)...' at line 1
+CRITICAL - 2022-03-30 02:54:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT IFNULL(SUM(jml_transaksi), 0) AS bayar, (IFNULL(SUM(jml_transaksi), 0)...' at line 1
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT I...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT I...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT I...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT I...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(28): App\Models\TransaksiModel->Getlaporan()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#8 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-30 02:55:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT IFNULL(SUM(jml_transaksi), 0) AS bayar, (IFNULL(SUM(jml_transaksi), 0)...' at line 1
+CRITICAL - 2022-03-30 02:55:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT IFNULL(SUM(jml_transaksi), 0) AS bayar, (IFNULL(SUM(jml_transaksi), 0)...' at line 1
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT I...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT I...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT I...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT I...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(28): App\Models\TransaksiModel->Getlaporan()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#8 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-30 02:56:53 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#3 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-30 02:57:58 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#3 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-30 02:58:20 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#3 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-30 02:58:49 --> Undefined property: stdClass::$jml_pengeluaran
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 03:12:22 --> Undefined variable: key
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 03:51:16 --> Array to string conversion
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 03:51:31 --> Undefined index: bayar
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(30): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 04:31:21 --> Trying to get property 'total' of non-object
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(31): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 04:31:56 --> Undefined index: total
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(31): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 04:41:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'not null' at line 3
+CRITICAL - 2022-03-30 04:41:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'not null' at line 3
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl_peng...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl_peng...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl_peng...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT tgl_peng...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(25): App\Models\TransaksiModel->pengluar()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 04:44:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'is not null' at line 3
+CRITICAL - 2022-03-30 04:44:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'is not null' at line 3
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl_peng...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl_peng...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl_peng...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT tgl_peng...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(25): App\Models\TransaksiModel->pengluar()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 04:55:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL' at line 3
+CRITICAL - 2022-03-30 04:55:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL' at line 3
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl_peng...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl_peng...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl_peng...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT tgl_peng...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(25): App\Models\TransaksiModel->pengluar()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 04:57:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-03-30 04:57:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl_peng...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl_peng...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl_peng...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT tgl_peng...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(25): App\Models\TransaksiModel->pengluar()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 05:18:37 --> Unknown column 'dd' in 'field list'
+CRITICAL - 2022-03-30 05:18:37 --> Unknown column 'dd' in 'field list'
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DATE_FOR...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE_FOR...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE_FOR...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(25): App\Models\TransaksiModel->pengluar()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 05:21:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%DD %MM %YYYY) AS TGL ,jml_pengeluaran,keterangan
+         FROM transaksi
+ ...' at line 1
+CRITICAL - 2022-03-30 05:21:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%DD %MM %YYYY) AS TGL ,jml_pengeluaran,keterangan
+         FROM transaksi
+ ...' at line 1
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DATE_FOR...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE_FOR...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE_FOR...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(25): App\Models\TransaksiModel->pengluar()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 05:22:07 --> Unknown column 'DD' in 'field list'
+CRITICAL - 2022-03-30 05:22:07 --> Unknown column 'DD' in 'field list'
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DATE_FOR...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE_FOR...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE_FOR...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(25): App\Models\TransaksiModel->pengluar()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 05:22:27 --> Undefined index: tgl_pengeluaran
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(31): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 05:31:32 --> FUNCTION transaksi.DATE_FORMAT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+CRITICAL - 2022-03-30 05:31:32 --> FUNCTION transaksi.DATE_FORMAT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT anak.nam...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT anak.nam...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT anak.nam...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT anak.nam...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Kaos_anak.php(41): App\Models\TransaksiModel->Rinci_kaos_anak('1')
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos_anak->detailA('1')
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos_anak))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 05:34:57 --> Undefined index: tgl_transaksi
+#0 C:\xampp\htdocs\ikarisma\app\Views\pages\detail_d.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/detail_d', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Kaos.php(45): view('pages/detail_d', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Kaos->detailD('1')
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kaos))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 05:48:10 --> Undefined index: nama_admin
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(31): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 05:48:49 --> Undefined index: nama_admin
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\pengeluaran.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(31): view('mimin/pengeluar...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-30 05:50:15 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/pengeluar...', Array, true)
+#3 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(31): view('mimin/pengeluar...', Array)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-03-30 09:30:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC' at line 3
+CRITICAL - 2022-03-30 09:30:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ASC' at line 3
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DATE_FOR...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE_FOR...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE_FOR...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(25): App\Models\TransaksiModel->pengluar()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-30 09:34:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE jml_pengeluaran AND tgl_pengeluaran IS NOT NULL' at line 3
+CRITICAL - 2022-03-30 09:34:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE jml_pengeluaran AND tgl_pengeluaran IS NOT NULL' at line 3
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DATE_FOR...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE_FOR...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE_FOR...')
+#3 C:\xampp\htdocs\ikarisma\app\Models\TransaksiModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...')
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\Pengeluaran.php(25): App\Models\TransaksiModel->pengluar()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Pengeluaran->pengeluaran()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Pengeluaran))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

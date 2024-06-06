@@ -1,0 +1,57 @@
+ERROR - 2022-03-13 03:54:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-13 03:54:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\ApproveAdmin.php(17): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\ApproveAdmin->Approve_d()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ApproveAdmin))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-13 04:11:45 --> View themes, no current section.
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\login.php(115): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/login', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\User.php(16): view('mimin/login')
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\User->index()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-13 14:10:16 --> Undefined variable: daftar_a
+#0 C:\xampp\htdocs\ikarisma\app\Views\mimin\approve_anak.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('mimin/approve_a...', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\ApproveAnak.php(24): view('mimin/approve_a...', Array)
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\ApproveAnak->Approve_a()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ApproveAnak))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-13 14:12:37 --> Column 'nama_lengkap' cannot be null
+CRITICAL - 2022-03-13 14:12:37 --> Column 'nama_lengkap' cannot be null
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ikarisma\app\Controllers\Admin\ApproveAdmin.php(37): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\ApproveAdmin->saved()
+#10 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ApproveAdmin))
+#11 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}

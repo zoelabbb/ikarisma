@@ -1,0 +1,3 @@
+[type="radio"]:checked + label:after {
+  background-color: black;
+}

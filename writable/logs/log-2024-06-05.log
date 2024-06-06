@@ -1,0 +1,494 @@
+CRITICAL - 2024-06-05 11:50:46 --> file_get_contents(model.pkl): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(19): file_get_contents('model.pkl')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 12:29:55 --> file_get_contents(model.pkl): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(19): file_get_contents('model.pkl')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 12:30:12 --> file_get_contents(model.pkl): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(19): file_get_contents('model.pkl')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 12:47:39 --> Undefined variable $ukuran
+#0 C:\xampp\htdocs\ikarisma\app\Views\prediksi.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('prediksi', Array, true)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(9): view('prediksi')
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->index()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-06-05 13:16:12 --> CodeIgniter\Session\Session::__construct(): Argument #1 ($driver) must be of type SessionHandlerInterface, Config\App given, called in C:\xampp\htdocs\ikarisma\app\Config\Services.php on line 29
+#0 C:\xampp\htdocs\ikarisma\app\Config\Services.php(29): CodeIgniter\Session\Session->__construct(Object(Config\App))
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Config\BaseService.php(189): Config\Services::session(false)
+#2 C:\xampp\htdocs\ikarisma\app\Config\Services.php(26): CodeIgniter\Config\BaseService::getSharedInstance('session')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(901): Config\Services::session()
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(11): session()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->index()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-06-05 13:16:13 --> CodeIgniter\Session\Session::__construct(): Argument #1 ($driver) must be of type SessionHandlerInterface, Config\App given, called in C:\xampp\htdocs\ikarisma\app\Config\Services.php on line 29
+#0 C:\xampp\htdocs\ikarisma\app\Config\Services.php(29): CodeIgniter\Session\Session->__construct(Object(Config\App))
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Config\BaseService.php(189): Config\Services::session(false)
+#2 C:\xampp\htdocs\ikarisma\app\Config\Services.php(26): CodeIgniter\Config\BaseService::getSharedInstance('session')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(901): Config\Services::session()
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(11): session()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->index()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-06-05 13:16:13 --> CodeIgniter\Session\Session::__construct(): Argument #1 ($driver) must be of type SessionHandlerInterface, Config\App given, called in C:\xampp\htdocs\ikarisma\app\Config\Services.php on line 29
+#0 C:\xampp\htdocs\ikarisma\app\Config\Services.php(29): CodeIgniter\Session\Session->__construct(Object(Config\App))
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Config\BaseService.php(189): Config\Services::session(false)
+#2 C:\xampp\htdocs\ikarisma\app\Config\Services.php(26): CodeIgniter\Config\BaseService::getSharedInstance('session')
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Common.php(901): Config\Services::session()
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(11): session()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->index()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2024-06-05 13:18:50 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:18:52 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:18:52 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:18:53 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:18:53 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:20:06 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:20:10 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:20:12 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:20:13 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:20:15 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:20:15 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:20:16 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:20:16 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:01 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:03 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:03 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:03 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:04 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:04 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:04 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:05 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:05 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:05 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:06 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:06 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:07 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:30:07 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:31:52 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:31:52 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:31:53 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:31:53 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:31:53 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(27): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:32:43 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(26): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:32:44 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(26): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:32:44 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(26): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:32:44 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(26): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:32:44 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(26): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:32:59 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(23): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:33:09 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(20): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:33:11 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(20): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:33:12 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(20): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:33:12 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(20): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:33:12 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(20): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:33:13 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(20): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2024-06-05 13:33:13 --> unserialize(): Error at offset 0 of 877 bytes
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ikarisma\app\Controllers\Prediksi.php(20): unserialize('\x80\x04\x95b\x03\x00\x00\x00\x00\x00\x00\x8C\x1Esk...')
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Prediksi->predict()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prediksi))
+#4 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2024-06-05 14:01:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-06-05 14:01:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ikarisma\app\Controllers\Pages.php(22): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Pages->index()
+#6 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ikarisma\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ikarisma\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
